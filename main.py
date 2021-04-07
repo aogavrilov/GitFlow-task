@@ -23,9 +23,10 @@ class Member:
     age: int
     work: Work
 
-    def __init__(self, name: str, age: int) -> None:
+    def __init__(self, name: str, age: int, work: Work) -> None:
         self.name = name
         self.age = age
+        self.work = work
 
     def get_age(self) -> int:
         return self.age
@@ -34,4 +35,5 @@ class Member:
         return self.name
 
 
-member = Member("Test", 19)
+work1 = Work("Work1", 100, "Nothing")
+member = Member("Test", 19, work1)
