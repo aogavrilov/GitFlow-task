@@ -31,6 +31,9 @@ class Work:
 
     def get_responsibilities(self) -> str:
         return self.responsibilities
+    
+    def add_salary(self, value: int) -> None:
+        self.salary += value
 
 
 member = Member("Test", 19)
