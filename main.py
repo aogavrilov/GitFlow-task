@@ -37,3 +37,4 @@ class Work:
 
 
 member = Member("Test", 19)
+member2 = Member("Test2", 29)
