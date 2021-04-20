@@ -25,4 +25,5 @@ v. LFS.
 основных команд Git.
 Почитать:
 • https://git-scm.com/book/ru/v1
+
 • https://www.atlassian.com/ru/git
